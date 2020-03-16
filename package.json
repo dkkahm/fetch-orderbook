@@ -1,0 +1,23 @@
+{
+  "name": "fetch-orderbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon dist/fetch-orderbook.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.5.2",
+    "@types/mongoose": "^5.7.6"
+  }
+}
